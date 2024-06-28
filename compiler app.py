@@ -6,3 +6,8 @@ fn = input("Name your audio file : ")
 
 res = gTTS(text=txt,lang=langue)
 res.save(fn+".mp3")
+
+print('\n\n'+"Thanks for using this program")
+
+while True:
+    False
